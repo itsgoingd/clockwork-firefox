@@ -7,7 +7,7 @@ Clockwork includes out of the box support for Laravel and Slim 2 based applicati
 **Not a Firefox user?** Check out [Chrome version](http://github.com/itsgoingd/clockwork-chrome) or [embeddable web app version of Clockwork](http://github.com/itsgoingd/clockwork-web), supporting many modern browsers along Firefox with out of the box support for Laravel and Slim.
 There are also a third-party [Firebug extension](https://github.com/sidorovich/clockwork-firebug) and a [CLI client app](https://github.com/ptrofimov/clockwork-cli) available.
 
-![](https://dl-web.dropbox.com/get/Screenshots/Screenshot%202015-02-18%2001.15.57.png)
+![](https://dl.dropboxusercontent.com/u/9846387/Screenshots/Screenshot%202015-02-18%2001.15.57.png)
 
 This extension is based on [RailsPanel](https://github.com/dejan/rails_panel), a Chrome extension for Ruby development by [Dejan Simic](http://rors.org/).
 
