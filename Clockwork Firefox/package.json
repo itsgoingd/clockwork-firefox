@@ -4,9 +4,9 @@
   "id": "jid1-Fnb0Mf5NKXinOQ@jetpack",
   "description": "Devtools panel for PHP development",
   "author": "Miroslav Rigler <itsgoingd@luzer.sk> (http://twitter.com/itsgoingd)",
-  "homepage": "http://github.com/itsgoingd/clockwork",
+  "homepage": "http://github.com/itsgoingd/clockwork-firefox",
   "icon": "data/assets/images/logo-48x48.png",
   "icon64": "data/assets/images/logo-64x64.png",
   "license": "BSD",
-  "version": "0.9.0"
+  "version": "0.9.1"
 }

@@ -4,7 +4,7 @@ Clockwork
 Clockwork is a Firefox extension for PHP development, extending Developer Tools with a new panel providing all kinds of information useful for debugging and profiling your PHP scripts, including information on request, headers, GET and POST data, cookies, session data, database queries, routes, visualisation of application runtime and more.
 Clockwork includes out of the box support for Laravel and Slim 2 based applications, you can add support for any other or a custom framework via an extensible API.
 
-**Not a Firefox user?** Check out [Chrome version](http://github.com/itsgoingd/clockwork-chrome) or [embeddable web app version of Clockwork](http://github.com/itsgoingd/clockwork-web), supporting many modern browsers along Firefox with out of the box support for Laravel and Slim.
+**Not a Firefox user?** Check out [Chrome version](http://github.com/itsgoingd/clockwork-chrome) or [embeddable web app version of Clockwork](http://github.com/itsgoingd/clockwork-web), supporting many modern browsers along Firefox.
 There are also a third-party [Firebug extension](https://github.com/sidorovich/clockwork-firebug) and a [CLI client app](https://github.com/ptrofimov/clockwork-cli) available.
 
 ![](https://dl.dropboxusercontent.com/u/9846387/Screenshots/Screenshot%202015-02-18%2001.15.57.png)
