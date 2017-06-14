@@ -15,7 +15,7 @@ This extension is based on [RailsPanel](https://github.com/dejan/rails_panel), a
 
 To use this extension you need to install a [server-side component](http://github.com/itsgoingd/clockwork).
 
-**This extension is currently in beta**, if you would like to help with testing you can [download](https://dl.dropboxusercontent.com/u/9846387/Clockwork%200.9.xpi) and install it manually. It will be available on [addons.mozilla.org](http://addons.mozilla.org/) as soon as a stable version is released.
+**This extension is currently in beta**, if you would like to help with testing you can install it manually. To do so, download a copy of this repository, open `about:debugging`, click on "Load Temporary add-on" and select any file in the downloaded directory. It will be available on [addons.mozilla.org](http://addons.mozilla.org/) as soon as a stable version is released.
 
 ## Licence
 
