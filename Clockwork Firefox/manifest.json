@@ -14,13 +14,12 @@
 	"devtools_page": "devtools.html",
 
 	"background": {
-		"scripts": [ "assets/javascripts/background.js" ]
+		"scripts": [ "assets/javascripts/chrome/background.js" ]
 	},
 
 	"permissions": [
 		"debugger",
 		"webRequest",
-		"<all_urls>",
 		"http://*/",
 		"https://*/"
 	]

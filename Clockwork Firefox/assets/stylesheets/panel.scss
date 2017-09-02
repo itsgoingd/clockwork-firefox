@@ -12,6 +12,7 @@ html {
 
 body {
 	font-size: 100%;
+	height: 100%;
 	margin: 0;
 
 	&.dark {
@@ -30,36 +31,52 @@ table {
 	}
 }
 
+a {
+	color: rgb(105, 105, 105);
+	cursor: default;
+
+	&:hover {
+		color: rgb(59, 59, 59);
+
+		body.dark & {
+			color: rgb(253, 148, 39);
+		}
+	}
+
+	body.dark & {
+		color: rgb(128, 128, 128);
+	}
+}
+
 // Split view
 
 .split-view {
 	display: flex;
 	flex-direction: column;
 	height: 100%;
+	width: 100%;
 
 	@media screen and (min-width: 900px) {
 		flex-direction: row;
 	}
 }
 
-.split-view-pane {
+.split-view-requests {
 	height: 50%;
 	width: 100%;
 
 	@media screen and (min-width: 900px) {
 		height: 100%;
-	}
-}
-
-.split-view-requests {
-	@media screen and (min-width: 900px) {
 		width: 480px;
 	}
 }
 
 .split-view-details {
+	flex: 1;
+	min-width: 0;
+
 	@media screen and (min-width: 900px) {
-		width: calc(100% - 480px);
+		height: 100%;
 	}
 }
 
@@ -75,10 +92,6 @@ table {
 
 	tr {
 		height: 28px;
-
-		body.dark & {
-			color: #b2b2b2;
-		}
 
 		&:first-child td {
 			border-top: 1px solid rgb(209, 209, 209);
@@ -238,12 +251,47 @@ table {
 		}
 	}
 
+	.requests-header {
+		height: 31px;
+	}
+
 	.requests-container {
 		height: calc(100% - 30px);
 		overflow: auto;
 
 		table {
 			height: 100%;
+		}
+	}
+
+	.load-more {
+		align-items: center;
+		border-bottom: 1px solid rgb(209, 209, 209);
+		border-right: 1px solid rgb(209, 209, 209);
+		display: flex;
+		height: 36px;
+		justify-content: center;
+
+		body.dark & {
+			border-bottom: 1px solid rgb(54, 54, 54);
+			border-right: 1px solid rgb(54, 54, 54);
+		}
+
+		a {
+			color: rgb(64, 64, 64);
+			text-decoration: none;
+
+			&:hover {
+				color: rgb(37, 140, 219);
+
+				body.dark & {
+					color: rgb(253, 148, 39);
+				}
+			}
+
+			body.dark & {
+				color: rgb(178, 178, 178);
+			}
 		}
 	}
 }
@@ -291,28 +339,14 @@ table {
 		}
 	}
 
-	.toolbar {
+	.icons {
 		align-items: center;
 		display: flex;
 		font-size: 15px;
 		padding: 0 5px;
 
 		a {
-			color: rgb(105, 105, 105);
-			cursor: default;
 			padding: 0 5px;
-
-			&:hover {
-				color: rgb(59, 59, 59);
-
-				body.dark & {
-					color: rgb(253, 148, 39);
-				}
-			}
-
-			body.dark & {
-				color: rgb(128, 128, 128);
-			}
 		}
 	}
 }
@@ -515,6 +549,40 @@ table {
 		}
 	}
 
+	// Events tab
+
+	.fired-event {
+		display: flex;
+		flex-wrap: wrap;
+
+		.fired-event-content {
+			flex: 1 0 auto;
+			max-width: 100%;
+		}
+
+		.fired-event-path {
+			color: #aaa;
+			flex: 0;
+			font-size: 90%;
+			margin-top: 3px;
+
+			body.dark & {
+				color: #777;
+			}
+		}
+	}
+
+	.fired-event-details {
+		h4 {
+			margin: 6px 0 3px;
+		}
+	}
+
+	.fired-event-actions {
+		padding-left: 5px;
+		width: 10px;
+	}
+
 	// Database tab
 
 	.database-query {
@@ -580,7 +648,7 @@ body.dark {
 	}
 
 	.pretty-jason-value-string {
-	    color: rgb(227, 62, 58);
+		color: rgb(227, 62, 58);
 	}
 
 	.pretty-jason-value-null,
