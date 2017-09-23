@@ -57,6 +57,9 @@ api.tabs.onRemoved.addListener((tabId) => delete lastClockworkRequestPerTab[tabI
 // chrome.devtools.network.onRequestFinished replacement for Firefox
 api.webRequest.onCompleted.addListener(
 	request => {
+		// ignore requests executed from extension itself
+		if (request.documentUrl && request.documentUrl.match(new RegExp('^moz-extension://'))) return
+
 		api.runtime.sendMessage({ action: 'requestCompleted', request: request })
 	},
 	{ urls: [ '<all_urls>' ] },
