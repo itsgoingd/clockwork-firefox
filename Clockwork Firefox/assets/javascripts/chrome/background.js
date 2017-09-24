@@ -26,7 +26,7 @@ function onMessage(message, sender, callback) {
 		}
 
 		Object.keys(message.headers || {}).forEach(headerName => {
-		    xhr.setRequestHeader(headerName, message.headers[headerName])
+			xhr.setRequestHeader(headerName, message.headers[headerName])
 		})
 
 		xhr.send()
