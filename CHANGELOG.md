@@ -1,3 +1,7 @@
+2.0
+- feature parity with Clockwork Chrome 2.0
+- rewrote as a webextension based on the Clockwork Chrome 2.0 code
+
 0.9.1
 (feature parity with Clockwork Chrome 1.5)
 - added support for resizing requests table columns
