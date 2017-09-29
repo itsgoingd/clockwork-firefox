@@ -1,23 +1,20 @@
-Clockwork
-=========
+<p align="center">
+	<img width="412px" src="https://underground.works/clockwork/images/github/title.png">
+	<img src="https://underground.works/clockwork/images/github/clockwork-intro.png">
+</p>
 
-Clockwork is a Firefox extension for PHP development, extending Developer Tools with a new panel providing all kinds of information useful for debugging and profiling your PHP scripts, including information on request, headers, GET and POST data, cookies, session data, database queries, routes, visualisation of application runtime and more.
-Clockwork includes out of the box support for Laravel and Slim 2 based applications, you can add support for any other or a custom framework via an extensible API.
 
-**Not a Firefox user?** Check out [Chrome version](http://github.com/itsgoingd/clockwork-chrome) or [embeddable web app version of Clockwork](http://github.com/itsgoingd/clockwork-web), supporting many modern browsers along Firefox.
-There are also a third-party [Firebug extension](https://github.com/sidorovich/clockwork-firebug) and a [CLI client app](https://github.com/ptrofimov/clockwork-cli) available.
+### What is Clockwork?
 
-![](https://dl.dropboxusercontent.com/u/9846387/Screenshots/Screenshot%202015-02-18%2001.15.57.png)
+Clockwork is a browser extension, providing tools for debugging and profiling your PHP applications, including request data, application log, database queries, routes, visualisation of application runtime and more.
 
-This extension is based on [RailsPanel](https://github.com/dejan/rails_panel), a Chrome extension for Ruby development by [Dejan Simic](http://rors.org/).
+Clockwork uses a server-side component, that gathers all the data and easily integrates with any PHP project, including out-of-the-box support for major frameworks.
 
-## Installation
+Read more and try it out on the [Clockwork website](https://underground.works/clockwork).
 
-To use this extension you need to install a [server-side component](http://github.com/itsgoingd/clockwork).
+*This repository contains the Clockwork Firefox add-on.*
 
-**This extension is currently in beta**, if you would like to help with testing you can install it manually. To do so, download a copy of this repository, open `about:debugging`, click on "Load Temporary add-on" and select any file in the downloaded directory. It will be available on [addons.mozilla.org](http://addons.mozilla.org/) as soon as a stable version is released.
-
-## Licence
+### Licence
 
 Copyright (c) 2013 Miroslav Rigler
 
