@@ -1,3 +1,6 @@
+2.0.1
+- feature parity with Clockwork Chrome 2.0.1
+
 2.0
 - feature parity with Clockwork Chrome 2.0
 - rewrote as a webextension based on the Clockwork Chrome 2.0 code
