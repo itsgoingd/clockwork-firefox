@@ -1,3 +1,7 @@
+2.0.2
+- *added workaround for Firefox 57 bug*
+- feature parity with Clockwork Chrome 2.0.2
+
 2.0.1
 - feature parity with Clockwork Chrome 2.0.1
 
