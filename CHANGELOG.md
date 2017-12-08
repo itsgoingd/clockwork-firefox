@@ -1,3 +1,7 @@
+2.0.3
+- fixed scrolling issues on small screen sizes
+- feature parity with Clockwork Chrome 2.0.3
+
 2.0.2
 - *added workaround for Firefox 57 bug*
 - feature parity with Clockwork Chrome 2.0.2
