@@ -1,10 +1,10 @@
 {
 	"manifest_version": 2,
 	"name": "Clockwork",
-	"version": "2.0.3",
+	"version": "2.1",
 
 	"description": "php dev tools integrated to your browser",
-	"homepage_url": "http://github.com/itsgoingd/clockwork-firefox",
+	"homepage_url": "https://github.com/itsgoingd/clockwork-firefox",
 
 	"icons": {
 		"48": "assets/images/logo-48.png",
@@ -18,6 +18,7 @@
 	},
 
 	"permissions": [
+		"webNavigation",
 		"webRequest",
 		"http://*/",
 		"https://*/"
