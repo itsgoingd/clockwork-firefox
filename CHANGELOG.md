@@ -1,3 +1,6 @@
+2.2
+- feature parity with Clockwork Chrome 2.2
+
 2.1
 - fixed requests with redirect responses not being shown
 - fixed no requests being shown if multiple instances of Clockwork are open
