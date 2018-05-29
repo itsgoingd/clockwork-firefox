@@ -1,3 +1,6 @@
+2.2.1
+- updated 3rd party dependencies, use uncompressed dependencies
+
 2.2
 - feature parity with Clockwork Chrome 2.2
 
