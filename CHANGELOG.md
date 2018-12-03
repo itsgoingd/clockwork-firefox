@@ -1,3 +1,6 @@
+3.1
+- feature parity with Clockwork Chrome 3.1
+
 3.0.1
 - feature parity with Clockwork Chrome 3.0.1
 
